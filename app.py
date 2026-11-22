@@ -178,7 +178,7 @@ Make sure the timetable covers every provided syllabus topic.
                 client = genai.Client(api_key=api_key)
 
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.8-flash",
                     contents=prompt,
                     config={
                         "response_mime_type": "application/json"
